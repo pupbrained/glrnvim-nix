@@ -18,6 +18,7 @@
       defaultPackage = naersk-lib.buildPackage {
         root = ./.;
         nativeBuildInputs = [pkgs.makeWrapper];
+        desktopFile = ./glrnvim.desktop;
       };
 
       defaultApp = utils.lib.mkApp {
