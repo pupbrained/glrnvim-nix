@@ -21,9 +21,6 @@
         postInstall = ''
           mkdir -p $out/share/applications
           cp ${./glrnvim.desktop} $out/share/applications
-
-          mkdir -p $out/share/icons
-          cp ${./glrnvim.svg} $out/share/icons
         '';
       };
 
